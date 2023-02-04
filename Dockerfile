@@ -5,7 +5,7 @@ ENV MONGO_DB_USERNAME=admin \
 WORKDIR /app
 #RUN mkdir -p /home/app
 
-COPY ./app /usr/share/nginx/html/
+COPY . /usr/share/nginx/html/
 
 # set default dir so that next commands executes in /home/app dir
 #WORKDIR /home/app
